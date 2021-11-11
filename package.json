@@ -1,0 +1,61 @@
+{
+  "name": "@walmart/glass-reporting-tool",
+  "version": "0.0.6",
+  "repository": {
+    "type": "git",
+    "url": "git@gecgithub01.walmart.com:walmart-web/reporting-tool.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Siddharth Sinha <siddharth.sinha@walmartlabs.com>",
+  "main": "lib/src/client/index.js",
+  "types": "lib/src/client/index.d.ts",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "apollo-server": "^2.14.2",
+    "apollo-server-express": "^2.14.2",
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.1.0",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-query": "^1.5.7",
+    "react-scripts": "3.4.1",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "prepublish": "tsc",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "e2e": "testcafe"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/testcafe": "^4.2.0",
+    "testcafe": "^1.8.6",
+    "npm-run-all": "4.1.5",
+    "npmlog": "4.1.2"
+  }
+}
