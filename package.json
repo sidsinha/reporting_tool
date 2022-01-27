@@ -1,12 +1,12 @@
 {
-  "name": "@walmart/glass-reporting-tool",
-  "version": "0.0.6",
+  "name": "reporting-tool",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git@gecgithub01.walmart.com:walmart-web/reporting-tool.git"
+    "url": "https://github.com/sidsinha/reporting_tool.git"
   },
   "license": "UNLICENSED",
-  "author": "Siddharth Sinha <siddharth.sinha@walmartlabs.com>",
+  "author": "Siddharth Sinha <sid.sinhaa@gmail.com>",
   "main": "lib/src/client/index.js",
   "types": "lib/src/client/index.d.ts",
   "dependencies": {
